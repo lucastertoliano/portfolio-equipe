@@ -82,6 +82,7 @@ nav li:first-child {
         font-size: 0.9rem;
     }
 }
+    
 /* Sidebar cobre toda a tela no mobile */
 .sidebar {
     position: fixed;
