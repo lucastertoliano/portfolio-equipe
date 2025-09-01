@@ -25,3 +25,26 @@ document.getElementById('form-contato').addEventListener('submit', function(e) {
     
     alert('Mensagem enviada com sucesso!');
 });
+
+// =================================
+// BOTÃO VOLTAR AO TOPO
+// =================================
+
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+
+// Controla visibilidade do botão "Voltar ao Topo"
+window.addEventListener('scroll', function() {
+    const backToTopButton = document.getElementById('backToTop');
+    const scrollPosition = window.pageYOffset;
+    
+    if (scrollPosition > 300) {
+        backToTopButton.classList.add('show');
+    } else {
+        backToTopButton.classList.remove('show');
+    }
+});

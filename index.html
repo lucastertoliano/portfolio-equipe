@@ -6,7 +6,7 @@
     <title>Portfólio - Equipe</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
-    <link rel="shortcut icon" href="favicon code crew.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/favicon code crew.png" type="image/x-icon">
 </head>
 <body>
     
@@ -70,7 +70,7 @@
 
                     <div class="team-member">
                         <div class="member-photo">
-                            <img src="pedro.jpg" alt="Foto do membro 2">
+                            <img src="assets/pedro.jpg" alt="Foto do membro 2">
                         </div>
                         <h3>Pedro</h3>
                         <p class="member-role">Cargo/Especialidade</p>
@@ -87,7 +87,7 @@
 
                     <div class="team-member">
                         <div class="member-photo">
-                            <img src="thiago.jpeg" alt="Foto do membro 3">
+                            <img src="assets/thiago.jpeg" alt="Foto do membro 3">
                         </div>
                         <h3>Thiago da Silva Bezerra</h3>
                         <p class="member-role">Cargo/Especialidade</p>
@@ -174,9 +174,68 @@
         </section>
 
     <!-- Seção Projetos -->
-    <section id="projetos">
-       
-    </section>
+        <!-- Seção Projetos -->
+        <section id="projetos">
+            <div class="container">
+                <h2>Nossos Projetos</h2>
+                <p class="section-description">Conheça alguns dos nossos trabalhos mais recentes</p>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/projeto1.jpg" alt="Projeto 1">
+                        </div>
+                        <div class="project-content">
+                            <h3>ONG - Love Together</h3>
+                            <p>Descriçao do projeto.</p>
+                          
+                            <!-- REMOVA ESTE COMENTÁRIO CASO CONSIGA SUBIR O LINK DOS PROJETOS
+                           <div class="project-links">
+                                <a href="#" target="_blank" rel="noopener" class="btn-primary">Ver Projeto</a>
+                                <a href="#" target="_blank" rel="noopener" class="btn-secondary">GitHub</a>
+                            </div> -->
+                        
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/projeto2.jpg" alt="Projeto 2">
+                        </div>
+                        <div class="project-content">
+                            <h3>Projeto 2</h3>
+                            <p>Descrição do projeto.</p>
+                            
+                            <!-- REMOVA ESTE COMENTÁRIO CASO CONSIGA SUBIR O LINK DOS PROJETOS
+
+                            <div class="project-links">
+                                <a href="#" target="_blank" rel="noopener" class="btn-primary">Ver Projeto</a>
+                                <a href="#" target="_blank" rel="noopener" class="btn-secondary">GitHub</a>
+                            </div> -->
+                       
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/projeto3.jpg" alt="Projeto 3">
+                        </div>
+                        <div class="project-content">
+                            <h3>Projeto 3</h3>
+                            <p>Descrição do projeto.</p>
+                        
+                            <!-- REMOVA ESTE COMENTÁRIO CASO CONSIGA SUBIR O LINK DOS PROJETOS
+
+                            <div class="project-links">
+                                <a href="#" target="_blank" rel="noopener" class="btn-primary">Ver Projeto</a>
+                                <a href="#" target="_blank" rel="noopener" class="btn-secondary">GitHub</a>
+                            </div> -->
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     <!-- Seção Contato -->
     <section id="contato">
@@ -193,11 +252,19 @@
     </section>
     </main>
 
-    <!-- Fooater -->
+        <!-- Botão Voltar ao Topo -->
+        <button id="backToTop" class="back-to-top" onclick="scrollToTop()" aria-label="Voltar ao topo">
+            <img src="assets/seta.png" alt="Seta para cima" width="24" height="24">
+        </button>
+    </main>
+
+    <!-- Footer -->
     <footer id="footer">
-        <p><center><strong>Obrigado por visitar a TechConnect 2025!</strong></center></p>
-        <p><center>Equipe de Desenvolvimento - Lucas Tertoliano, José Pedro de Lima, Haziel Barros, Pablo Rennan e Thiago da Silva.</center></p>
-        <p><center>&copy; 2025 TechConnect. Todos os direitos reservados.</center></p>
+        <div class="container">
+            <p><strong>Obrigado por visitar nosso portfólio!</strong></p>
+            <p>Equipe de Desenvolvimento - Lucas, Pedro e Thiago</p>
+            <p>&copy; 2025 Code Crew. Todos os direitos reservados.</p>
+        </div>
     </footer>
 
 </body>
