@@ -6,6 +6,7 @@
     <title>Portfólio - Equipe</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="favicon code crew.png" type="image/x-icon">
 </head>
 <body>
     
@@ -13,12 +14,12 @@
     <header id="header">
         <nav>
             <ul class="sidebar">
-                <li onclick=hideSidebar()><a href="#"><img src="assets/icon01.svg" alt="Ícone" width="26" height="26"></a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
+            <li onclick=hideSidebar()><a href="#"><img src="assets/icon01.svg" alt="Ícone" width="26" height="26"></a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
             <ul>
                 <li><a href="#">Code Crew</a></li>
                 <li class="hideOnMobile"><a href="#">Sobre</a></li>
@@ -58,10 +59,10 @@
                         <p class="member-role">Cargo/Especialidade</p>
                         <p class="member-description">Descrição do membro</p>
                         <div class="member-social">
-                            <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn do membro 1">
+                            <a href="www.linkedin.com/in/lucastertoliano" target="_blank" rel="noopener" aria-label="LinkedIn do membro 1">
                                 <img src="assets/linkedin-icon.png" alt="LinkedIn" width="24" height="24">
                             </a>
-                            <a href="#" target="_blank" rel="noopener" aria-label="GitHub do membro 1">
+                            <a href="https://github.com/lucastertoliano" target="_blank" rel="noopener" aria-label="GitHub do membro 1">
                                 <img src="assets/github-icon.png" alt="GitHub" width="24" height="24">
                             </a>
                         </div>
@@ -69,7 +70,7 @@
 
                     <div class="team-member">
                         <div class="member-photo">
-                            <img src="assets/member2.jpg" alt="Foto do membro 2">
+                            <img src="pedro.jpg" alt="Foto do membro 2">
                         </div>
                         <h3>Pedro</h3>
                         <p class="member-role">Cargo/Especialidade</p>
@@ -78,7 +79,7 @@
                             <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn do membro 2">
                                 <img src="assets/linkedin-icon.png" alt="LinkedIn" width="24" height="24">
                             </a>
-                            <a href="#" target="_blank" rel="noopener" aria-label="GitHub do membro 2">
+                            <a href="https://github.com/Pedro-lupa/" target="_blank" rel="noopener" aria-label="GitHub do membro 2">
                                 <img src="assets/github-icon.png" alt="GitHub" width="24" height="24">
                             </a>
                         </div>
@@ -92,10 +93,10 @@
                         <p class="member-role">Cargo/Especialidade</p>
                         <p class="member-description">Descrição do membro</p>
                         <div class="member-social">
-                            <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn do membro 3">
+                            <a href="https://www.linkedin.com/in/thiago-da-silva-bezerra-170152315/" target="_blank" rel="noopener" aria-label="LinkedIn do membro 3">
                                 <img src="assets/linkedin-icon.png" alt="LinkedIn" width="24" height="24">
                             </a>
-                            <a href="#" target="_blank" rel="noopener" aria-label="GitHub do membro 3">
+                            <a href="https://github.com/TSB89" target="_blank" rel="noopener" aria-label="GitHub do membro 3">
                                 <img src="assets/github-icon.png" alt="GitHub" width="24" height="24">
                             </a>
                         </div>
@@ -181,12 +182,12 @@
     <section id="contato">
             <h2>Fale conosco</h2>
             <form id="form-contato">
-                <label for="nome">Nome:</label>
+                <label for="name">Nome:</label>
                 <input type="text" id="nome" nome="nome" required>
                 <label for="email">E-mail:</label>
-                <input type="text" id="email" nome="email" required>
+                <input type="email" id="email" nome="email" required>
                 <label for="mensagem"> Mensagem:</label>
-                <input type="text" id="mensagem" nome="mensagem" required>
+                <input type="textarea" id="mensagem" nome="mensagem" required>
                 <button type="submit">Enviar</button>
             </form>
     </section>
