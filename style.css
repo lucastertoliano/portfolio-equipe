@@ -8,7 +8,7 @@ body {
 /*-- Seção Navbar --*/
 
 nav {
-    background-color: #fff;
+    background-color: white;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     max-width: 1200px;
     margin: 0 auto;
@@ -16,6 +16,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-radius: 20px;
 }
 nav ul {
     width: 100%;
@@ -447,7 +448,7 @@ nav li:first-child {
     color: #555;
     font-weight: bold;
 }
-#form-contato input[type="text"] {
+#form-contato input[type="name"] {
     padding: 12px;
     border: 1px solid lightgray;
     border-radius: 5px;
@@ -456,6 +457,16 @@ nav li:first-child {
     box-sizing: border-box; 
 }
 #form-contato input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+#form-contato input[type="email"]:focus {
+    border-color: #007bff;
+    outline: none; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+#form-contato input[type="textArea"]:focus {
     border-color: #007bff;
     outline: none; 
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
@@ -535,3 +546,18 @@ footer p:last-child {
     font-size: 0.9rem;
 }
 
+/* cabeçalho */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color:rgba(33, 33, 33, 0.7);
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
