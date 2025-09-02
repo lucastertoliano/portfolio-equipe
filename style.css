@@ -70,16 +70,28 @@ nav li:first-child {
         padding-top: 80px;
     }
     .hero-image .hero-text {
-        padding: 20px 10px;
+        padding: 20px 15px; 
+        max-width: 90%; 
+        margin: 0 auto; 
     }
     .hero-image .hero-text h1 {
         font-size: 2rem;
+        margin-bottom: 1rem;
     }
     .hero-image .hero-text p {
         font-size: 1rem;
+        margin-bottom: 1rem;
+        line-height: 1.4; 
+    }
+    .hero-image .hero-text p:last-of-type {
+        font-size: 0.9rem; 
+        line-height: 1.5;
+        text-align: justify; 
     }
     .hero-image .hero-text span {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
+        margin-top: 1rem;
+        display: block;
     }
 }
     
